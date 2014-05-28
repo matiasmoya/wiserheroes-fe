@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <title>Dashboard Template for Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    .btn_fix{
+      width: 80px;
+      padding: 0px;
+    }
+    .td_fix{
+      width: 200px;
+    }
+    .td_fix_half{
+      width: 100px;
+    }
+    .smally{
+      font-size: 10px;
+      color: #474747;
+      padding:0;
+      margin:0;
+    }
+    .small-img{
+      height: 45px;
+      width: 45px;
+      margin-top:5px;
+      padding: 0px;
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Wiser heroes</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+<!--             <li><a href="#">Home</a></li>
+            <li><a href="#">Boxes</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">Add link</a></li>
+            <li><img class="small-img" src="http://graph.facebook.com/879217532103885/picture"></li> -->
+            <li><a href="#">
+              <button type="button" class="btn btn-primary btn-xs">Sign in with facebook</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 main">
+        <br>
+          <h1 class="page-header">Dashboard</h1>
+          <div class="well well-sm">
+           <h4>Welcome <strong>Guest!</strong></h4>
+           <p>Wiser heroes is a very simple <strong>share and save</strong> links application.<br>To start using it you just need to click in <code class="bg-info">sign in with facebook</code> button. We will only use your name and profile picture information.
+            </p> <button type="button" class="btn btn-primary btn-xs">Sign in with facebook</button></a>
+           </div>
+
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#link-fav" data-toggle="tab">Top links by favorites</a></li>
+            <li><a href="#link-views" data-toggle="tab">Top links by views</a></li>
+            <li><a href="#user-fav" data-toggle="tab">Top users by favorites</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="link-fav">
+              <h2 class="sub-header">Top links by favorites</h2>
+              <div class="table">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Views/Favorites</th>
+                      <th>Link description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="td_fix">
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-default btn_fix">
+                            1024<br><span class="smally">views</span>
+                          </button>
+                          <button type="button" class="btn btn-default btn_fix">
+                            452<br><span class="smally">favorites</span>
+                          </button>
+                        </div>  
+                      </td>
+                      <td class="tdfull">Link to somewhere</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-default btn_fix">
+                            1024<br><span class="smally">views</span>
+                          </button>
+                          <button type="button" class="btn btn-default btn_fix">
+                            452<br><span class="smally">favorites</span>
+                          </button>
+                        </div>  
+                      </td>
+                      <td class="tdfull">Link to somewhere</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+<!-- another table -->
+            <div class="tab-pane" id="link-views">
+              <h2 class="sub-header">Top links by views</h2>
+              <div class="table">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Views/Favorites</th>
+                      <th>Link description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="td_fix">
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-default btn_fix">
+                            1024<br><span class="smally">views</span>
+                          </button>
+                          <button type="button" class="btn btn-default btn_fix">
+                            452<br><span class="smally">favorites</span>
+                          </button>
+                        </div>  
+                      </td>
+                      <td class="tdfull">Link to somewhere</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-default btn_fix">
+                            1024<br><span class="smally">views</span>
+                          </button>
+                          <button type="button" class="btn btn-default btn_fix">
+                            452<br><span class="smally">favorites</span>
+                          </button>
+                        </div>  
+                      </td>
+                      <td class="tdfull">Link to somewhere</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+           </div>
+<!-- end of table -->
+<!-- another table -->
+          <div class="tab-pane" id="user-fav">
+              <h2 class="sub-header">Top users by favorites</h2>
+              <div class="table">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Favorites</th>
+                      <th>Link description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="td_fix_half">
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-default btn_fix">
+                            1024<br><span class="smally">favorites</span>
+                          </button>
+                        </div>  
+                      </td>
+                      <td class="tdfull">Matias Alejandro Moya Hinczuk</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="btn-group btn-group-md">
+                          <button type="button" class="btn btn-default btn_fix">
+                            452<br><span class="smally">favorites</span>
+                          </button>
+                        </div>  
+                      </td>
+                      <td class="tdfull">Eddard Stark</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+           </div>
+<!-- end of table -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
+</html>
